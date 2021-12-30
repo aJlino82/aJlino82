@@ -1,9 +1,9 @@
-## Saudações jovens!! 😎
+## Saudações!! 😎
 
 ### Aqui vai um pouco sobre mim:
 
 
-- 💼 Atualmente trabalho no time de desenvolvimento e suporte da secretaria de saúde da minha cidade.
+- 💼 Atualmente trabalho no time de desenvolvimento e suporte da secretaria de saúde de João Pessoa.
 - 🎓 Faço pós-graduação em desenvolvimento web na universidade Cruzeiro do Sul campus UNIPE.
 - 💻 Meu objetivo nesse momento é entrar com o pé direito no mercado de desenvolvimento.
 <br>
@@ -35,10 +35,10 @@
 </div>
 <br>
 <div style="display: inline_block" align-"center"><br>
-  <a href="https://www.linkedin.com/in/jrlino/" target="_blank"><img height="25" width="140" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&   logo=linkedin&logoColor=white">
-   <a href="https://pt.stackoverflow.com/users/224830/adailton-junior" target="_blank"> <img height="25" width="140" src="https://aleen42.github.io/badges/src/stackoverflow.svg">
- <a href="mailto:jrlino@protonmail.com"><img height="25" width="140" src="https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white">
-   <img height="25" width="140" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">
+  <a href="https://www.linkedin.com/in/jrlino/" target="_blank"><img height="25" width="130" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&   logo=linkedin&logoColor=white">
+   <a href="https://pt.stackoverflow.com/users/224830/adailton-junior" target="_blank"> <img height="25" width="130" src="https://aleen42.github.io/badges/src/stackoverflow.svg">
+ <a href="mailto:jrlino@protonmail.com"><img height="25" width="130" src="https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white">
+   <img height="25" width="130" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">
 </div>
 
 
