@@ -3,7 +3,7 @@
 ### Aqui vai um pouco sobre mim:
 
 
-- 💼 Atualmente trabalho no time de desenvolvimento e suporte da secretaria de saúde de João Pessoa.
+- 💼 Atualmente trabalho no time de desenvolvimento e suporte da Secretaria de Saúde de João Pessoa.
 - 🎓 Faço pós-graduação em desenvolvimento web na universidade Cruzeiro do Sul campus UNIPE.
 - 💻 Meu objetivo nesse momento é entrar com o pé direito no mercado de desenvolvimento.
 <br>
