@@ -38,7 +38,7 @@
   <a href="https://www.linkedin.com/in/jrlino/" target="_blank"><img height="25" width="130" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&   logo=linkedin&logoColor=white">
    <a href="https://pt.stackoverflow.com/users/224830/adailton-junior" target="_blank"> <img height="25" width="130" src="https://aleen42.github.io/badges/src/stackoverflow.svg">
  <a href="mailto:jrlino@protonmail.com"><img height="25" width="130" src="https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white">
-   <img height="25" width="130" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">
+   <a href="Adailton Junior#7487"><img height="25" width="130" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">
 </div>
 
 
