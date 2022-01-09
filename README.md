@@ -10,10 +10,10 @@
 
 <div>
   <a href="https://github.com/aJlino82/github-readme-stats">
-    <img height="180em"  src="https://github-readme-stats.vercel.app/api?username=aJlino82&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />
+    <img height="180em"  src="https://github-readme-stats.vercel.app/api?username=aJlino82&show_icons=true&theme=dark&include_all_commits=true&count_private=true" />
   </a>
   <a href="https://github.com/aJlino82/convoychat">
-    <img height="180em"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=aJlino82&layout=compact&theme=dracula&langs_count=8" />
+    <img height="180em"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=aJlino82&layout=compact&theme=dark&langs_count=8" />
   </a>
 </div>
 
