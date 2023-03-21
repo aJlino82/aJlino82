@@ -8,14 +8,7 @@
 - 💻 Meu objetivo nesse momento é entrar no mercado de desenvolvimento.
 <br>
 
-<div>
-  <a href="https://github.com/aJlino82/github-readme-stats">
-    <img height="180em"  src="https://github-readme-stats.vercel.app/api?username=aJlino82&show_icons=true&theme=dark&include_all_commits=true&count_private=true" />
-  </a>
-  <a href="https://github.com/aJlino82/convoychat">
-    <img height="180em"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=aJlino82&layout=compact&theme=dark&langs_count=8" />
-  </a>
-</div>
+
 
 <div style="display: inline_block"><br>
   <img align="center" alt="java" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
