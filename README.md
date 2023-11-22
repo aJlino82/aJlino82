@@ -1,10 +1,10 @@
 ## Saudações!! 😎
 
-### Aqui vai um pouco sobre mim:
+### Permita-me compartilhar um pouco sobre minha trajetória:
 
 
-- 💼 Atualmente trabalho no time de desenvolvimento e suporte da Secretaria de Saúde de João Pessoa.
-- 🎓 Faço pós-graduação em desenvolvimento web na universidade Cruzeiro do Sul campus UNIPE.
+- 💼 Atualmente, integro o time de desenvolvimento e suporte da Secretaria de Saúde de João Pessoa, onde desfruto de uma experiência enriquecedora.
+- 🎓 Paralelamente, estou imerso na jornada acadêmica, cursando pós-graduação em desenvolvimento web na Universidade Cruzeiro do Sul, no campus UNIPE.
 <br>
 
 
