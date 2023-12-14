@@ -1,6 +1,6 @@
 ## Saudações!! 😎
 
-### Permita-me compartilhar um pouco sobre minha trajetória:
+### Permita-me compartilhar um pouco sobre mim:
 
 
 - 💼 Atualmente, integro o time de desenvolvimento e suporte da Secretaria de Saúde de João Pessoa, onde desfruto de uma experiência enriquecedora.
