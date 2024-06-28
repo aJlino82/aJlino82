@@ -3,8 +3,8 @@
 ### Permita-me compartilhar um pouco sobre mim:
 
 
-- 💼 Atualmente, integro o time de desenvolvimento e suporte da Secretaria de Saúde de João Pessoa, onde desfruto de uma experiência enriquecedora.
-- 🎓 Paralelamente, estou imerso na jornada acadêmica, cursando pós-graduação em desenvolvimento web na Universidade Cruzeiro do Sul, no campus UNIPE.
+- 💼 Atualmente, integro o time de desenvolvimento e suporte da Secretaria de Saúde de João Pessoa.
+- 🎓 Paralelamente, estou cursando pós-graduação em desenvolvimento web na Universidade Cruzeiro do Sul, no campus UNIPE.
 <br>
 
 
