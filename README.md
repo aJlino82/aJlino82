@@ -13,7 +13,7 @@
 
 - LinkedIn: [Adailton Lino Junior](https://www.linkedin.com/in/jrlino/)
 - Stack Overflow: [Adailton Junior](https://pt.stackoverflow.com/users/224830/adailton-junior)
-- Email: jrlino@protonmail.com
+- Email: adailton.jr@gmail.com
 - Discord: Adailton Junior#7487
 
 
