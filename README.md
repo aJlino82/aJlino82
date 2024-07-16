@@ -7,7 +7,7 @@
 
 ### Tecnologias:
 
-- JavaScript, Java, Spring, MySQL, PostgreSQL, Linux
+- Java, React, Rust, Spring, PostgreSQL, MySQL, MongoDb, Linux
 
 ### Contato:
 
