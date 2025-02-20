@@ -2,7 +2,7 @@
 
 ### Sobre Mim:
 
-- 💼 Analista Desenvolvedor Pleno na Miinsait/Indra João Pessoa.
+- 💼 Analista Desenvolvedor Pleno na Minsait/Indra João Pessoa.
 - 🎓 Graduado em Sistemas de Informações.
 - 🎓 Pós-graduando em Desenvolvimento Web na Universidade Cruzeiro do Sul (UNIPE).
 
