@@ -188,13 +188,24 @@ def github_request(method, path, token, payload=None):
         raise RuntimeError(f"{method} {path} failed: {err.code} {body}") from err
 
 
-def ensure_not_client_repo(owner):
-    if owner.lower() == "sms-sistemas":
+def ensure_allowed_repository(token, repo, dry_run=False):
+    if OWNER.lower() == "sms-sistemas":
         raise RuntimeError("Operation blocked: repositories from sms-sistemas cannot be changed.")
+    if "/" in repo:
+        raise RuntimeError(f"Invalid repository name '{repo}'. Use only repository names without owner.")
+    if dry_run:
+        return
+
+    _, repo_data = github_request("GET", f"/repos/{OWNER}/{repo}", token)
+    owner_login = str(repo_data.get("owner", {}).get("login", "")).lower()
+    full_name = str(repo_data.get("full_name", "")).lower()
+    if owner_login == "sms-sistemas" or full_name.startswith("sms-sistemas/"):
+        raise RuntimeError(f"Operation blocked for client repository: {full_name or repo}")
 
 
 def archive_repositories(token, dry_run=False):
     for repo in ARCHIVE_REPOS:
+        ensure_allowed_repository(token, repo, dry_run=dry_run)
         if dry_run:
             print(f"[dry-run][archive] {OWNER}/{repo}")
             continue
@@ -204,6 +215,7 @@ def archive_repositories(token, dry_run=False):
 
 def update_metadata(token, dry_run=False):
     for repo, config in PORTFOLIO_METADATA.items():
+        ensure_allowed_repository(token, repo, dry_run=dry_run)
         if dry_run:
             print(f"[dry-run][description] {OWNER}/{repo} -> {config['description']}")
             print(f"[dry-run][topics] {OWNER}/{repo} -> {', '.join(config['topics'])}")
@@ -225,6 +237,7 @@ def update_metadata(token, dry_run=False):
 
 
 def upsert_readme(token, repo, content, dry_run=False):
+    ensure_allowed_repository(token, repo, dry_run=dry_run)
     if dry_run:
         print(f"[dry-run][readme] {OWNER}/{repo} -> README.md")
         return
@@ -269,7 +282,6 @@ def main():
         print("Missing GITHUB_TOKEN environment variable.", file=sys.stderr)
         return 1
 
-    ensure_not_client_repo(OWNER)
     archive_repositories(token, dry_run=args.dry_run)
     update_metadata(token, dry_run=args.dry_run)
     update_readmes(token, dry_run=args.dry_run)
