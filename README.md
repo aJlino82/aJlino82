@@ -53,7 +53,7 @@ Currently working at **Minsait (Indra)** on mission-critical projects for **SEFA
 ## Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jrlino)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=netlify&logoColor=white)](https://aj-desmovie.netlify.app/)
+[![DSMovie Demo](https://img.shields.io/badge/DSMovie_Demo-000000?style=flat&logo=netlify&logoColor=white)](https://aj-desmovie.netlify.app/)
 [![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=flat&logo=stack-overflow&logoColor=white)](https://pt.stackoverflow.com/users/224830/adailton-junior)
 
 ## GitHub Portfolio Automation
