@@ -168,6 +168,8 @@ Go · Chi Router · Clean Architecture
 
 
 def github_request(method, path, token, payload=None):
+    if not token:
+        raise RuntimeError("Missing GITHUB_TOKEN for live GitHub API requests.")
     url = f"https://api.github.com{path}"
     data = None
     headers = {
@@ -189,8 +191,6 @@ def github_request(method, path, token, payload=None):
 
 
 def ensure_allowed_repository(token, repo, dry_run=False):
-    if OWNER.lower() == "sms-sistemas":
-        raise RuntimeError("Operation blocked: repositories from sms-sistemas cannot be changed.")
     if "/" in repo:
         raise RuntimeError(f"Invalid repository name '{repo}'. Use only repository names without owner.")
     if dry_run:
@@ -277,7 +277,7 @@ def main():
     )
     args = parser.parse_args()
 
-    token = os.getenv("GITHUB_TOKEN")
+    token = os.getenv("GITHUB_TOKEN", "")
     if not token and not args.dry_run:
         print("Missing GITHUB_TOKEN environment variable.", file=sys.stderr)
         return 1
