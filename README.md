@@ -1,4 +1,4 @@
-# Adailton Lino Junior · @aJlino82
+# Adailton Junior · @aJlino82
 
 > Systems Engineer | Java Backend | Fullstack | Rust
 
