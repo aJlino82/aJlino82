@@ -11,98 +11,153 @@ OWNER = "aJlino82"
 COMMIT_MESSAGE = "chore: portfolio organization and README improvements"
 
 ARCHIVE_REPOS = [
-    "angular-spring-course",
-    "pos-web-java-spring-mongodb",
-    "dio-cognizant-java",
-    "curso-spring",
-    "react-dev-media",
-    "sds-dsmeta",
-    "dsmovie",
-    "Java-avancado-sd-admin-2",
-    "DIO-Santander-Sala-Reunioes",
-    "diorhapi",
-    "PHPOO",
-    "Aula-bootstrap-DIO",
-    "Clone-Instagram",
-    "Aula-Netflix",
-    "NLW-2021",
-    "Bancos_Nao_Convencionais",
-    "Java-Basico-Unipe-Pos-2020.1",
-    "Digital-Inovattion-One",
     "42Basecamp",
-    "posMobile",
-    "unipe-mobile-2020",
+    "Aula-bootstrap-DIO",
+    "Aula-Netflix",
+    "Bancos_Nao_Convencionais",
+    "books",
+    "Clone-Instagram",
+    "crud-php-mysql-procedural",
+    "Desafio-web-site",
+    "Digital-Inovattion-One",
+    "dio-cognizant-java",
+    "dio-lab-open-source",
+    "free-programming-books",
+    "GitHubGraduation-2022",
+    "Java-Basico-Unipe-Pos-2020.1",
+    "Livro-de-Receitas-Aula",
+    "Meuapp",
+    "minicurso-streamlit",
+    "mysqlbook",
+    "NLW-2021",
+    "numero-por-extenso",
+    "PHPOO",
     "Pos-Javaweb-Configuracao",
     "Pos-Unipe-phonebook",
-    "JSPDF",
-    "Desafio-web-site",
+    "posMobile",
+    "projeto-app",
+    "react-dev-media",
+    "tasks-tracker",
+    "this-week-in-rust",
+    "unipe-mobile-2020",
     "verificador",
-    "books",
-    "Semana-Dev-Superior-fork-",
-    "sds4",
 ]
 
 PORTFOLIO_METADATA = {
+    "api-bb": {
+        "description": "Java Spring Boot REST API integration project",
+        "topics": ["java", "spring-boot", "rest-api", "backend"],
+    },
+    "BooksChallenge": {
+        "description": "Technical challenge - Books REST API built with Java and Spring Boot",
+        "topics": ["java", "spring-boot", "rest-api", "challenge", "backend"],
+    },
     "dio-product-catalog": {
         "description": "Distributed microservices architecture with Spring Cloud, API Gateway and Service Discovery",
         "topics": ["java", "spring-cloud", "microservices", "spring-boot", "api-gateway"],
-    },
-    "Projeto-DIO-Santander": {
-        "description": "REST API with full audit trail using Spring Boot, Hibernate Envers, Lombok and Swagger",
-        "topics": ["java", "spring-boot", "rest-api", "swagger", "hibernate", "audit"],
-    },
-    "go-scaffolding-project-model": {
-        "description": "Production-ready Go project template with clean architecture",
-        "topics": ["go", "golang", "architecture", "template", "clean-architecture"],
     },
     "demo-quarkus": {
         "description": "Cloud Native Java with Quarkus and GraalVM native image",
         "topics": ["java", "quarkus", "graalvm", "cloud-native", "microservices"],
     },
+    "DIO-Santander-Sala-Reunioes": {
+        "description": "Meeting room management system built with Java and Spring Boot",
+        "topics": ["java", "spring-boot", "crud", "backend", "fullstack"],
+    },
+    "dsmovie": {
+        "description": "Movie rating application with frontend and backend integration",
+        "topics": ["java", "spring-boot", "react", "fullstack", "portfolio"],
+    },
+    "go-scaffolding-project-model": {
+        "description": "Production-ready Go project template with clean architecture",
+        "topics": ["go", "golang", "architecture", "template", "clean-architecture"],
+    },
     "helm_curso": {
         "description": "Infrastructure as Code with Helm charts for Kubernetes",
         "topics": ["kubernetes", "helm", "devops", "infrastructure", "k8s"],
     },
-    "api-bb": {
-        "description": "Java Spring Boot REST API integration",
-        "topics": ["java", "spring-boot", "rest-api"],
+    "Projeto-DIO-Santander": {
+        "description": "REST API with full audit trail using Spring Boot, Hibernate Envers, Lombok and Swagger",
+        "topics": ["java", "spring-boot", "rest-api", "swagger", "hibernate", "audit"],
     },
-    "BooksChallenge": {
-        "description": "Technical challenge - Books REST API in Java",
-        "topics": ["java", "spring-boot", "challenge", "rest-api"],
+    "sds-dsmeta": {
+        "description": "Full-stack sales dashboard built with Spring Boot and React",
+        "topics": ["java", "spring-boot", "react", "fullstack", "dashboard"],
     },
-    "desafio-BeHoh": {
-        "description": "Java Web technical challenge",
-        "topics": ["java", "spring-boot", "challenge"],
-    },
-    "Desafio-Calcme": {
-        "description": "Frontend technical challenge built with TypeScript",
-        "topics": ["typescript", "frontend", "challenge"],
+    "Alga-MSR-2023": {
+        "description": "Java backend study project using enterprise-oriented patterns and APIs",
+        "topics": ["java", "backend", "spring", "api", "study"],
     },
 }
 
 README_CONTENTS = {
+    "api-bb": """# API BB
+
+Java Spring Boot REST API integration project focused on backend services and data processing.
+
+## Stack
+
+- Java
+- Spring Boot
+- REST API
+- Maven
+
+## Objective
+
+Provide a practical backend structure to integrate business rules and API consumption in a clean way.
+
+## Run locally
+
+```bash
+mvn spring-boot:run
+```
+""",
+    "BooksChallenge": """# Books Challenge
+
+Technical challenge focused on building a books management REST API.
+
+## Stack
+
+- Java
+- Spring Boot
+- JPA
+- H2
+
+## Features
+
+- Create, list, update and delete books
+- Data persistence with JPA
+- REST endpoints
+
+## Run locally
+
+```bash
+mvn spring-boot:run
+```
+""",
     "dio-product-catalog": """# Product Catalog Microservices
 
 Distributed microservices architecture built with Spring Cloud.
 
 ## Architecture
 
-- **API Gateway** — Single entry point for all services
-- **Service Discovery (Eureka)** — Dynamic service registration
-- **Config Server** — Centralized configuration management
-- **Product Service** — Core product catalog REST API
+- API Gateway
+- Service Discovery (Eureka)
+- Config Server
+- Product Service
 
-## Tech Stack
+## Stack
 
-- Java · Spring Boot · Spring Cloud Netflix
-- Eureka Server · Zuul API Gateway
-- REST APIs · Maven
+- Java
+- Spring Boot
+- Spring Cloud
+- Eureka
+- Maven
 
-## Running locally
+## Run locally
 
 ```bash
-# Start Eureka Server first
+# Start Eureka first
 cd eureka-server && mvn spring-boot:run
 
 # Start Config Server
@@ -118,51 +173,150 @@ REST API for user access and time tracking control, built with Spring Boot.
 
 ## Features
 
-- Complete CRUD for users and access records
-- Full audit trail with **Hibernate Envers** (tracks every change)
-- Interactive API documentation via **Swagger UI**
-- Reduced boilerplate with **Lombok**
+- CRUD for users and access records
+- Full audit trail with Hibernate Envers
+- API documentation with Swagger UI
 
-## Tech Stack
+## Stack
 
-- Java · Spring Boot · Spring Data JPA
-- Hibernate Envers · Lombok · Swagger/OpenAPI
-- H2 (dev) · PostgreSQL (prod)
+- Java
+- Spring Boot
+- Hibernate Envers
+- Lombok
+- Swagger
 
-## Running locally
+## Run locally
 
 ```bash
 mvn spring-boot:run
-# Swagger UI: http://localhost:8080/swagger-ui.html
+```
+""",
+    "sds-dsmeta": """# DSMeta
+
+Full-stack sales dashboard built with Spring Boot and React.
+
+## Stack
+
+- Java
+- Spring Boot
+- React
+- TypeScript
+- REST API
+
+## Objective
+
+Show an end-to-end portfolio project with backend, frontend, dashboard and data presentation.
+
+## Run locally
+
+```bash
+# backend
+cd backend && mvn spring-boot:run
+
+# frontend
+cd frontend && npm install && npm run dev
 ```
 """,
     "go-scaffolding-project-model": """# Go Scaffolding Project Model
 
 Production-ready Go project template following clean architecture principles.
 
-## Structure
-
-```
-.
-├── cmd/          # Application entrypoints
-├── internal/     # Private application code
-│   ├── domain/   # Business entities and rules
-│   ├── usecase/  # Application use cases
-│   └── infra/    # External concerns (DB, HTTP, etc.)
-├── pkg/          # Public shared packages
-└── configs/      # Configuration files
-```
-
 ## Purpose
 
-Opinionated template to bootstrap Go projects with:
-- Clear separation of concerns
-- Testable architecture
-- Standard project layout
+Bootstrap new services with:
 
-## Tech Stack
+- clear separation of concerns
+- testable architecture
+- clean project structure
 
-Go · Chi Router · Clean Architecture
+## Stack
+
+- Go
+- Clean Architecture
+- HTTP router
+
+## Run locally
+
+```bash
+go run ./cmd/app
+```
+""",
+    "demo-quarkus": """# Demo Quarkus
+
+Cloud-native Java application using Quarkus and GraalVM-inspired build practices.
+
+## Stack
+
+- Java
+- Quarkus
+- GraalVM
+- REST API
+
+## Run locally
+
+```bash
+mvn quarkus:dev
+```
+""",
+    "helm_curso": """# Helm Course
+
+Infrastructure as Code project using Helm charts for Kubernetes deployment.
+
+## Stack
+
+- Kubernetes
+- Helm
+- YAML
+- DevOps
+
+## Objective
+
+Practice deployment automation and environment configuration through Helm releases.
+""",
+    "dsmovie": """# DSMovie
+
+Movie rating demo project with frontend and backend integration.
+
+## Stack
+
+- Java
+- Spring Boot
+- React
+- REST API
+
+## Objective
+
+Create a simple, real portfolio project with user interaction and API data consumption.
+""",
+    "DIO-Santander-Sala-Reunioes": """# Meeting Room Management
+
+Project to manage meeting rooms and reservations.
+
+## Stack
+
+- Java
+- Spring Boot
+- JPA
+- REST API
+
+## Objective
+
+Practice CRUD flows, validation and service logic in a real backend project.
+""",
+    "Alga-MSR-2023": """# AlgaWorks MSR 2023
+
+Study project focused on backend and practical application of Java enterprise patterns.
+
+## Stack
+
+- Java
+- Spring
+- API
+- Backend
+
+## Objective
+
+Build experience with enterprise Java patterns and real backend flows.
 """,
 }
 
@@ -268,8 +422,7 @@ def update_readmes(token, dry_run=False):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Automate GitHub portfolio organization using the GitHub REST API."
-    )
+        description="Automate GitHub portfolio organization using the GitHub REST API.")
     parser.add_argument(
         "--dry-run",
         action="store_true",
